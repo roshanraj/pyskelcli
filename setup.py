@@ -21,7 +21,7 @@ setup(name='cli',
         "Topic :: Script :: Utils :: Application"
     ],
     keywords="utils database postgres",
-    author='xavient',
+    author='rraj',
     author_email='',
     url='',
     packages=find_packages(),
