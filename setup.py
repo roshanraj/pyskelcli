@@ -8,7 +8,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = "python cli"
 
 requires = [
-    ''
+    'tensorflow'
 ]
 
 setup(name='cli',
@@ -31,6 +31,7 @@ setup(name='cli',
     entry_points="""\
     [console_scripts]
     skelcli = skelcli:main
+    skeltest = skelcli.test:printHello
     """,
 )
 
